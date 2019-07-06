@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+body{
+	background-color: rgb(170,35,39);
+	margin-top: -20px;
+	text-align: center;
+	width: 100%;
+}
+
+div#interface{
+	display:block;
+	min-width: 60%;
+	width: 80%;
+	margin: 0px auto;
+	list-style-type: none;
+	background-color: white;
+
+}
+
+header#cabecalho {
+	background-image: url('../_imagens/logo.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+header#cabecalho h1{
+	font-family: Castellar;
+	font-size: 50pt;
+	font-weight: lighter;
+	color: rgb(120,35,39);
+	margin: -15px auto 20px auto;
+	
+}
+
+header#cabecalho h2{
+	font-family: Garamond Premer Pro SMBD;
+	font-size: 50pt;
+	font-weight: lighter;
+	color: rgb(120,35,39);
+	margin: 0;
+	
+	
+}
+
+/* Formatação dos icones de media social*/
+figure#socialMedia {
+	display: block;
+	position: relative;
+	padding-top: 150px;
+}
+
+figure#socialMedia a{
+	display: inline-block;
+	position: relative;
+	left: 340px;
+}
+
+header#cabecalho img{
+	margin-top: 15px;
+	margin-bottom: -15px;
+
+}
+
+
+/* Formatação do menu de navegação  */
+nav h1{
+	display:none;
+}
+
+nav#menu{
+	margin-top: -20px;
+	border-top: 3px solid #002db3;
+	border-bottom: 3px solid #002db3;
+}
+
+nav#menu li{
+	display: inline-block;
+	position: relative;
+	border: 2px transparent green;
+	font-size: 27px;
+	padding: 0px 50px 0px 50px;
+	text-decoration: none;
+}
+
+nav#menu a{
+	color: #0000b3;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* Formatação do Corpo*/
+section#corpo{
+	display: block;
+	text-align: left;
+	padding-bottom: 30px
+}
+
+section#corpo img{
+	width: 100%;
+}
+
+section#texto {
+	font-family: Garamond Premer Prodisp;
+	margin: 20px 100px 40px 100px;
+	text-align: justify;
+	color: #000033;
+}
+
+section#texto h1{
+	color: rgb(180,35,39);
+	font-size: 45pt;
+	font-style: italic;
+	margin-top: 10px;
+	margin-left: 40px;
+	margin-bottom: -10px
+}
+
+section#texto h2{
+	margin-top: -10px;
+	font-size: 24pt;
+	font-style: italic;
+	margin-left: 130px;
+	font-weight: 520;
+}
+
+section#texto p{
+	font-family: Garamond Premer Prodisp, sans-serif;
+	font-size: 16pt;
+}
+
+figure#icones{
+	position: relative;
+}
+
+figure#icones img.circulo{
+	display: line-block;
+	position: absolute;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	top: 3px;
+	overflow: hidden;
+	text-align: center;
+}
+
+figure#icones img#telefone{
+	left: -25px;
+}
+
+figure#icones img#email{
+	left: 230px;
+}
+
+figure#icones img#endereco{
+	left: 530px;
+}
+
+/* Formatação do rodape */
+footer{
+	display: block;
+	position: relative;
+	left: 0;
+}
+
+footer#rodape {
+	margin-top: -45px;
+	width: 100%;
+}
+
+footer#rodape li{
+	font-family: Garamond;
+	display: inline-block;
+	color: white;
+	font-size: 15pt;
+	position: absolute;
+	list-style: none;
+	text-align: left;
+	top: 30px;
+	padding-top: 5px;
+	margin-top: 5px;
+}
+
+li#info-telefone{
+	left: 75px;
+	width: 300px;
+}
+li#info-mail{
+	width: 150px;
+	left: 330px;
+
+}
+li#info-endereco{
+	width: 600px;
+	left: 630px;
+}
+
+iframe {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}

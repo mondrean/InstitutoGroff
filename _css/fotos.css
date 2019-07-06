@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+ul#fotos img {
+	width: 200px;
+}
+
+ul#fotos {
+	position: relative;
+	width: 900px;
+	right: 80px;
+}
+
+ul#fotos li{
+	list-style: none;
+	display: inline-block;
+	margin-bottom: 10px;
+}
